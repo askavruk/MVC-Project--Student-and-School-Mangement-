@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "AdminSchoolList";
+}
+@model List<School>;
+
+<partial name="_ValidationScriptsPartial" />
+
+<div asp-validation-summary="All">
+</div>
+
+
+<h1>Schools List</h1>
+
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+             <td><a asp-action="Update" asp-controller="School" asp-route-id="@item.Id" class="btn btn-primary">Update</a></td>
+             <td><a asp-action="Delete" asp-controller="School" asp-route-id="@item.Id" class="btn btn-primary" onclick="return confirm('Okulu silmek istediğinize emin misiniz?')">Delete</a></td>   
+        </tr>
+    }
+</table>
+    <p>
+        <a asp-action="Create" asp-controller="School" class="btn btn-danger">Add School</a>
+    </p>

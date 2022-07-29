@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Student";
+}
+@model List<Student>;
+
+<partial name="_ValidationScriptsPartial" />
+
+<div asp-validation-summary="All">
+</div>
+
+
+<h1>Student Index</h1>
+
+
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Class</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Class</td>
+            <td>
+                @if (item.School != null)
+                {
+                    @item.School.Name
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+@*<form asp-action="Creation" asp-controller="Student">
+    <button type="submit" class="btn-primary btn-outline-primary btn-block">Öğrenci Ekleme Sayfasına Git</button>
+    </form>*@
+<br />
+

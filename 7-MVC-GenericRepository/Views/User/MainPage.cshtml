@@ -1,0 +1,25 @@
+﻿@model UserVM;
+
+<partial name="_ValidationScriptsPartial" />
+
+<div asp-validation-summary="All">
+</div>
+
+
+<h1>Main Page</h1>
+
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>Students</th>
+        <th>Schools</th>
+        <th>Lessons</th>
+
+    </tr>
+        <tr>
+            <td><a asp-action="StudentList" asp-controller="Student" class="btn btn-primary">Students List</a></td>
+            <td><a asp-action="SchoolList" asp-controller="School"  class="btn btn-primary">Schools List</a></td>
+            <td><a asp-action="LessonList" asp-controller="Lesson" class="btn btn-primary">Lessons List</a></td>
+        </tr>
+</table>

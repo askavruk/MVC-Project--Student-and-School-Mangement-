@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Lessons";
+}
+
+@model List<Lesson>;
+
+ <partial name="_ValidationScriptsPartial"/>
+
+    <h1>Lesson Index</h1>
+
+  
+
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>   
+        </tr>
+    }
+</table>

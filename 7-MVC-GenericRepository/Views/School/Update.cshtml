@@ -1,0 +1,43 @@
+﻿@model StudentsWithSchoolsWM
+
+@{
+    ViewData["Title"] = "Update School";
+}
+<partial name="_ValidationScriptsPartial" />
+
+<div asp-validation-summary="All">
+</div>
+
+<h1>Update School</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+                
+                <input asp-for="School.Id" class="form-control" style="visibility: hidden" readonly/>
+            
+            <div class="form-group">
+                <label asp-for="School.Name" class="control-label"></label>
+                <input asp-for="School.Name" class="form-control"/><br />
+                <span asp-validation-for="School.Name"></span><br />
+            </div>
+
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Update" class="btn btn-primary " />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div style="margin-bottom:5px">
+    <a asp-action="SchoolList" class="btn btn-outline-info">Back To List</a>
+</div>
+
+
+@if(ViewBag.Message!= null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.Message
+    </div>
+}
