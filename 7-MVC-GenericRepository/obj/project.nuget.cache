@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cImn1/2fduVf9erm4tOMYtz1GkvCQuXrezGrhgOsOiow8qPQmo+1YBQBYNJYvdnh77MumKPmCkbw9QOMTcVQuw==",
+  "dgSpecHash": "KytTpvkC5jFSg9Nf+ngGxk5WUbCr5sO/8voGKvIh+k+drNml1sVcXX2dRn+4rdYD9bLjxfFRMqrK87mQsTu0Nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asena Sevnur Ulun\\Desktop\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\7-MVC-GenericRepository.csproj",
+  "projectFilePath": "D:\\Kurssüreç\\9-MVC\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\7-MVC-GenericRepository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asena Sevnur Ulun\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Asena Sevnur Ulun\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

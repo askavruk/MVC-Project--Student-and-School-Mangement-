@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asena Sevnur Ulun\\Desktop\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\7-MVC-GenericRepository.csproj",
+      "projectUniqueName": "D:\\Kurssüreç\\9-MVC\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\7-MVC-GenericRepository.csproj",
       "projectName": "7-MVC-GenericRepository",
-      "projectPath": "C:\\Users\\Asena Sevnur Ulun\\Desktop\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\7-MVC-GenericRepository.csproj",
+      "projectPath": "D:\\Kurssüreç\\9-MVC\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\7-MVC-GenericRepository.csproj",
       "packagesPath": "C:\\Users\\Asena Sevnur Ulun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asena Sevnur Ulun\\Desktop\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\obj\\",
+      "outputPath": "D:\\Kurssüreç\\9-MVC\\Robereattığım\\7-MVC-GenericRepository\\7-MVC-GenericRepository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asena Sevnur Ulun\\AppData\\Roaming\\NuGet\\NuGet.Config",
